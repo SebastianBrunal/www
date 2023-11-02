@@ -1,8 +1,9 @@
 # www
 ---
-## te cuento sobre mi
+## el primer paso para programar html
 
-en este md te contare un poco sobre mi
+---
+este readme esta basado para  mostrar el primer avance de mi carrera en el software
 ---
 
-creado por [Sebastian]()
+creado por [Sebastian](juanba64@outlook.com)
