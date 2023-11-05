@@ -1,6 +1,167 @@
-body{
-    font-family: serif;
+*{
+    box-sizing: border-box;
+   
+
 }
-h1,h2{
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0%
+
+}
+
+h1{font: size 50px;}
+h2{font-size: 43px;}
+h3{font-size: 32px;}
+p{font-size: 24px;}
+ul{list-style: none;
+font-size: 22px;}
+button{font-size: 24px;
+border-radius: 20px;
+background-color:rgb(178, 245, 183);}
+button.hover{
+    background-color: rgb(178, 245, 183);
+}
+
+
+.container{
+    max-width: 1400px;
+    margin:auto 
+    
+}
+header{background-color: beige;}
+header .logo{
+    margin: 0%;
+    padding: 20px 30px;
+    font-weight: bold;color: rgb(178, 245, 183);
+    font-size: 1em;
     text-align: center;
 }
+head .container{
+    display: flex;
+    flex-direction: column; 
+align-items: center;
+justify-content: ;
+ }
+ header nav{
+    display: flex;
+   flex-direction: column;
+   text-align: center ;
+   
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+} 
+header a:hover{color: rgb rgb(178, 245, 183)
+}
+.color-center{
+    color:  rgb(178, 245, 183);
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color:rgb(178, 245, 183);
+   background-image:url(assets/Fiona.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center; background-color: beige;}
+   b
+
+#mishobbies{
+background-color: beige;
+}
+#mishobbies .container{
+    text-align: center;
+    padding: 200px 12px;
+
+}
+#estesoy{
+    margin-top: 0%;
+    margin: 0%;
+    background-color: beige;
+}
+#estesoy .container{
+background-color: beige;
+    text-align: center;
+    color: rgb(178, 245, 183);
+    
+}
+
+    
+ 
+#hobbies.container{
+    text-align: center;
+}
+#mishobbies{
+   background-color: beige; }
+
+#mishobbies .container{
+    padding: 150px 12px;
+
+}
+#mishobbies h2{
+    margin-top: 0%;
+
+}
+ #mishobbies p{display: none;}   
+    
+ #mishobbies .carta{
+
+ }
+p.tt{
+    color: black;
+}
+
+#mishobbies.carta-a{
+        background-size: cover;
+       background-position: center center; 
+       padding: 50px;
+       
+}
+.carta-a{ background-image: url(assets/descarga.jpg);
+background-size: cover;
+background-position: center center;
+color: azure;
+
+ }
+ .carta-b{ background-image: url(assets/jogando.jpg);
+    background-size: cover;
+    background-position: center center; color: azure; }
+    .carta-c{ background-image: url(assets/videojuegos.jpg);
+        background-size: cover;
+        background-position: center center;color: azure;
+         }
+        
+            
+    
+        #caracteristicas .container {
+            text-align: center;
+            background-color: beige;
+            margin: 0%;
+            
+            
+
+        }
+        #caracteristicas h2{
+            color: rgb(178, 245, 183);
+        }
+        #caracteristicas li{
+            margin: 16px 0pxs;
+            font-weight: bold;
+            background-color: beige;
+        }
+        .container{
+            background-color: beige;
+        }
+        #container.tables{
+            align-items: center;
+            
+        }
