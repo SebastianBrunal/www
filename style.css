@@ -1,10 +1,10 @@
 *{
     box-sizing: border-box;
-   
-
+    
 }
 html{
     scroll-behavior: smooth;
+    
 }
 body{
     margin:0%
@@ -42,7 +42,7 @@ head .container{
     display: flex;
     flex-direction: column; 
 align-items: center;
-justify-content: ;
+justify-content: center;
  }
  header nav{
     display: flex;
@@ -119,7 +119,11 @@ background-color: beige;
 p.tt{
     color: black;
 }
-
+#caracteristicas{
+    padding: 1em;
+    margin-top: 0%;
+    background-color: beige;
+}
 #mishobbies.carta-a{
         background-size: cover;
        background-position: center center; 
@@ -130,6 +134,7 @@ p.tt{
 background-size: cover;
 background-position: center center;
 color: azure;
+padding: 1em;
 
  }
  .carta-b{ background-image: url(assets/jogando.jpg);
@@ -154,14 +159,78 @@ color: azure;
             color: rgb(178, 245, 183);
         }
         #caracteristicas li{
-            margin: 16px 0pxs;
+            margin: 0%;
             font-weight: bold;
             background-color: beige;
         }
         .container{
+            margin: 0%;
             background-color: beige;
         }
-        #container.tables{
-            align-items: center;
+        table{
+           margin: 100px;
+           border: solid 1px;
+           
+           background-color: beige;
+        }
+        td{
+            background-color: white;
+        }
+        th,td{
+            border-bottom: 1px;
+            padding: 1em;
+            border: solid 1px;
+            
             
         }
+        .tables {
+            margin: 0%;
+            background-color: beige;
+            align-items: center;
+ 
+        }
+        .tables h1{
+            text-align: center;
+            color: rgb(178, 245, 183);
+            background-color: beige;
+            margin-top: 0%;
+            
+        }
+        thead{
+            background-color: rgb(178, 245, 183);
+            text-align: left;
+
+        }
+        tbody{
+            background-color: beige;
+        }
+        #mifamilia{
+            background-color: beige;
+        }
+        hr{
+            color: black;
+            margin: 1em;
+        }
+        body{
+            background-color: beige;
+        }
+        #mifamilia{
+            text-align: center;
+            text-align: ;
+        }
+        .container h1{
+       color:  rgb(178, 245, 183);
+            padding: 1em; 
+            font-size: 2.5em;
+            margin: 0%;
+        }
+        .container p{
+            text-align: center;
+        }
+        footer{
+            background-color: rgb(178, 245, 183);
+            text-align: right;
+            margin: 0%;
+            font-size: 10px;
+            margin-bottom: 0%;
+        } 
