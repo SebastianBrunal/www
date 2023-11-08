@@ -1,4 +1,7 @@
-*{
+*::first-letter{
+text-transform: capitalize;
+}
+    *{
     box-sizing: border-box;
     
 }
@@ -6,6 +9,8 @@ html{
     scroll-behavior: smooth;
     
 }
+
+
 body{
     margin:0%
 
@@ -20,8 +25,8 @@ font-size: 22px;}
 button{font-size: 24px;
 border-radius: 20px;
 background-color:rgb(178, 245, 183);}
-button.hover{
-    background-color: rgb(178, 245, 183);
+.button :hover{
+    background-color: rgb(245, 208, 178);
 }
 
 
@@ -30,7 +35,7 @@ button.hover{
     margin:auto 
     
 }
-header{background-color: beige;}
+header{background-color: beige; } 
 header .logo{
     margin: 0%;
     padding: 20px 30px;
@@ -113,9 +118,7 @@ background-color: beige;
 }
  #mishobbies p{display: none;}   
     
- #mishobbies .carta{
-
- }
+ 
 p.tt{
     color: black;
 }
@@ -216,7 +219,7 @@ padding: 1em;
         }
         #mifamilia{
             text-align: center;
-            text-align: ;
+           
         }
         .container h1{
        color:  rgb(178, 245, 183);
